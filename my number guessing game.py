@@ -34,6 +34,7 @@ while True:
             value = input("Write here : ")
         guesser_number(value)
     elif answ.lower() == 'no':
+        print("OK, good bye")
         break
     else:
         print("You should write only yes or no")
